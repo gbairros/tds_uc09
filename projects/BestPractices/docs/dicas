@@ -1,0 +1,25 @@
+********** DICAS GERAIS DE DESENVOLVIMENTO ***********
+
+- Utilize um sistema de versionamento (GIT)
+- Utilize/crie um padrão de desenvolvimento
+- Melhor ter um padrão errado do que não ter padrão
+- Onde não há padrão, não há melhoria (Sistema Toyota)
+- NUNCA comite usuario/senha
+- Utilize Properties / config
+- Lembre-se de fechar as conexões
+- Estude sobre Pool de conexão
+- Coloque logo em produção para validar
+- Faça testes unitários
+- Crie indices no banco
+- Analise o desempenho das suas consultas / explain analyze
+- Nunca faça SELECT * FROM table
+- Verifique se existe consultas com Full Scan
+- Melhore seu código sempre que *necessário*
+- Aprenda sobre filas e caches
+- Utilize a versão mais atualizada do Java
+
+- Se aprofunde em uma área de conhecimento/linguagem/plataforma
+- Sigam o conselho do ET Bilu "Busquem Conhecimento"
+
+
+docker run --rm --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=serpro -d mysql
